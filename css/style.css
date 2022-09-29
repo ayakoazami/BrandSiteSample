@@ -1,0 +1,140 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #2d2d2d;
+  font-family: 'Crimson Text', serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.site-title {
+  margin-right: 50px;
+  font-size: 1rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+
+.section-title-en {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+/* mainviaual */
+#mainvisual {
+  width: 90vw;
+  margin: 4% auto 32px;
+  /* margin: 60px auto 32px; */
+}
+
+/* header */
+#header {
+  display: flex;
+  margin:0 0 60px 60px;
+}
+
+#header ul {
+  display: flex;
+  gap: 30px;
+}
+
+#header li {
+  font-size: 0.875rem;
+}
+
+/* concept, work */
+.container .content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.conteiner .img {
+  width: 50%;
+}
+
+ .container .text {
+  width: 50%;
+  padding: 0 7%;
+ }
+
+/* footer */
+#footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin: 20px 0;
+}
+
+#footer .logo {
+  font-size: 1rem;
+}
+
+/* SP */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 1.25rem;
+  }
+
+  #mainvisual {
+    width: 100vw;
+    margin: 0;
+  }
+
+  #mainvisual img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  #header {
+    width: 100%;
+    margin: 20px 18px;
+    /* padding: 20px 18px; */
+  }
+
+  .content {
+    flex-direction: column;
+    margin: 30px 20px;
+  }
+
+  #work {
+    flex-direction: column-reverse;
+  }
+
+  .content img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .content .text {
+    width: 100%;
+    padding: 0;
+  }
+
+}
+
+
